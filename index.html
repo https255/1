@@ -23,14 +23,24 @@
           width: 650px;
           margin: 50px auto 16px;
       }
-      img{
+      .photos img{
           border-radius: 15px;
           margin: 10px;
           box-shadow: 5px 5px 10px #333333;
           opacity: 0.6;
       }
-      img:hover{
+      .photos img:hover{
           opacity: 1.0;
+      }
+      .lead{
+          width: 650px;
+          margin: 25px auto;
+      }
+      .pos_left{
+          float:left;
+      }
+      .clear{
+          clear: both;
       }
       .red_bold{
           color: red;
@@ -53,10 +63,13 @@
 
 <body>
     <h1>アウトドアサークル　<i>matatabi</i></h1>
+    <div class="lead">
+    <img class="pos_left" src="camp-00.jpg">
     <p>ほぼ毎週、キャンプを企画しているをサークルです。<br>
     学内の方なら誰でも入会できます。<br>
     「勝手に現地集合」の<span class="red_bold">ソロキャンプ</span>も開催中!</p>
-    
+    <br class="clear">
+    </div>
     <div class="info">
     
     <p>入会を希望する方<sup><b> (※1) </b></sup>に向けて、<span class="red_bold">サークル説明会</span></b></mark>を下記の日程で開催します。
@@ -68,13 +81,15 @@
     <p class="note">(※1) 2年生以上の方も入会できます。</p>
 </div>
     <h2>キャンプの様子</h2>
+    <div class="photos">
     <a href="photo/photo-01.html"><img src="camp-01.jpg" alt="テントと雲海"></a>
     <a href="photo/photo-02.html"><img src="camp-02.jpg" alt="バーベキューの様子"></a>
     <a href="photo/photo-03.html"><img src="camp-03.jpg" alt="仲間と過ごす夜"><br></a>
     <a href="photo/photo-04.html"><img src="camp-04.jpg" alt="ソーセージを調理中"></a>
     <a href="photo/photo-05.html"><img src="camp-05.jpg" alt="就寝前ののひととき"></a>
     <a href="photo/photo-06.html"><img src="camp-06.jpg" alt="翌日の朝"></a>
-    
+    </div>
+
     <h2>キャンプ関連のリンク</h2>
     <p><a href="https://camping.or.jp/" target="_blank">日本キャンプ協会</a><br>
     <a href="https://www.autocamp.or.jp/" target="_blank">日本オートキャンプ協会</a><br>
